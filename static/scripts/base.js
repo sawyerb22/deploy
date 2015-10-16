@@ -3,11 +3,11 @@ $(document).ready(function(){
 	//Modal
 	$('.launch').click(function(e) {
 		e.stopPropagation;
-		$('.md-modal').addClass('md-show');
+		$('.modal').addClass('modal-show');
 	});
-	$('.md-close').click(function(e) {
+	$('.modal-close').click(function(e) {
 		e.stopPropagation;
-		$('.md-modal').removeClass('md-show');
+		$('.modal').removeClass('modal-show');
 	})
 	//button Ripple effect
 	$('.button').click(function(e){

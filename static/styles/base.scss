@@ -3,6 +3,7 @@
 @import 'components';
 
 * {
+	position: relative;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -122,8 +123,15 @@ html,body {
 	display: inline-block;
 	margin-right: 50px;
 }
-
-
+.modal .options {
+	text-align: center;
+	.button {
+		margin-left: 8px;
+		&.last-child {
+			margin-left: none;
+		}
+	}
+}
 
 /* Content styles */
 
